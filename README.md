@@ -1,6 +1,24 @@
 # Optimization-Exercise
+## Ejercicio 45
 
-# Informe sobre la Evaluación del Algoritmo PSO para la Función de Mishra
+## Integrante:
+Bruno Jesús Pire Ricardo C311
+
+
+
+## Indicaciones de Uso:
+
+El archivo ``PSO.py`` es el Algoritmo junto con la función. En este se encuentra el código con el que se generaron los datos usados en el informe.
+
+El archivo ``Save.py`` es el codigo utilizado para guardar los resultados en la tabla y genrear ``Data.md``. Al ejecutar el codio de python en su interior se sobreescribirá el archivo ``Data.md`` con información nueva.
+
+En el archivo ``requirements.txt`` se encuentran las bibliotecas necesarias para ejecutar el algoritmo y el codigo de salvado. Para instalar estas bibliotecas ejecute el siguiente comando desde la terminal en la raiz del proyecto:
+```
+pip install -r requirements.txt
+```
+
+
+# Informe
 
 ## Introducción:
 En este informe se evalúa el comportamiento del algoritmo **Particle Swarm Optimization (PSO)** aplicado a la minimización de la función **Mishra 2**. El objetivo es determinar la calidad de los puntos hallados, su proximidad a la solución conocida, y cómo varían los resultados con el incremento de la dimensión del problema y otros parámetros como el tamaño del enjambre y el número de iteraciones.
